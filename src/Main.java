@@ -11,7 +11,7 @@ public class Main {
         player2 = new Player("Jatekos 2", 'O');
     }
 
-    public void playGame() {
+    public void inditas() {
         Scanner scanner = new Scanner(System.in);
         Player currentPlayer = player1;
 
@@ -44,6 +44,6 @@ public class Main {
 
     public static void main(String[] args) {
         Main game = new Main();
-        game.playGame();
+        game.inditas();
     }
 }
